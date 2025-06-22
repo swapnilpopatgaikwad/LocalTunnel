@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# Virtual Environment
+venv/
+.venv/
+Scripts/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Railway deployment cache (if any)
+.cache/
+.railway/
+
+# Uvicorn reload artifacts
+*.pid
+
+# PyCharm
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Local test or debug files
+test_*.py
+debug.log
